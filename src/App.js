@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 // PAGES
-import Projects from './pages/Projects'
 import Home from './pages/Home'
+import Page404 from './pages/Error'
 
 // COMPONENTS
 import Header from './components/Header'
@@ -16,7 +16,7 @@ function App() {
 
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/Projets" element={<Projects />}></Route>
+        <Route path="*" element={<Page404 />}></Route>
       </Routes>
     </Router>
   )

@@ -9,6 +9,7 @@
 // pages
 @import './pages/Home';
 @import './pages/Projects';
+@import './pages/Error';
 
 body {
   @include font-family-montserrat;
