@@ -1,0 +1,16 @@
+@import './variables';
+@import './mixins';
+
+// components
+@import './components/Card';
+@import './components/Tag';
+@import './components/Header';
+
+// pages
+@import './pages/Home';
+@import './pages/Projects';
+
+body {
+  @include font-family-montserrat;
+  margin: 0px;
+}
