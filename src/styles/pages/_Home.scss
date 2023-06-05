@@ -20,5 +20,10 @@
   }
   &__text {
     font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    &__paragraph {
+      margin-bottom: 15px;
+    }
   }
 }
