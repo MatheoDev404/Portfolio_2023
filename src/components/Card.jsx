@@ -5,7 +5,7 @@ import Tag from '../components/Tag'
 
 function Card({ id, picture, title, tags, description }) {
   return (
-    <Link to={{ pathname: `/projets/${id}` }} className="Card">
+    <Link to={{ pathname: `/projet/${id}` }} className="Card">
       <img className="Card__img" src={picture} alt="aperçu du site" />
       <div className="Card__content">
         <span className="Card__content__title">{title}</span>
