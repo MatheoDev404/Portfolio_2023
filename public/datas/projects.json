@@ -1,0 +1,44 @@
+[
+  {
+    "id": "c67ab8a7",
+    "title": "Kasa",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "description": "Site vitrine pour une agence de location immobilière, première version.",
+    "tags": ["React", "HTML/CSS", "Sass"]
+  },
+  {
+    "id": "c67ab8a8",
+    "title": "Kasa",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "description": "Site vitrine pour une agence de location immobilière, première version.",
+    "tags": ["React", "HTML/CSS", "Sass"]
+  },
+  {
+    "id": "c67ab875",
+    "title": "Kasa",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "description": "Site vitrine pour une agence de location immobilière, première version.",
+    "tags": ["React", "HTML/CSS", "Sass"]
+  },
+  {
+    "id": "c67758a7",
+    "title": "Kasa",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "description": "Site vitrine pour une agence de location immobilière, première version.",
+    "tags": ["React", "HTML/CSS", "Sass"]
+  },
+  {
+    "id": "c67a27a7",
+    "title": "Kasa",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "description": "Site vitrine pour une agence de location immobilière, première version.",
+    "tags": ["React", "HTML/CSS", "Sass"]
+  },
+  {
+    "id": "c612b8a7",
+    "title": "Kasa",
+    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "description": "Site vitrine pour une agence de location immobilière, première version.",
+    "tags": ["React", "HTML/CSS", "Sass"]
+  }
+]
