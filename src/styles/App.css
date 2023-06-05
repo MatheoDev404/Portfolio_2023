@@ -63,6 +63,11 @@
 }
 
 .Header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  left: 0;
   background-color: #0e423d;
   display: flex;
   justify-content: space-between;
@@ -101,28 +106,29 @@
 }
 
 .Home {
-  margin: 20px;
+  margin: 100px 20px 20px;
   display: flex;
   flex-wrap: wrap;
 }
 @media screen and (min-width: 1024px) {
   .Home {
     max-width: 1240px;
-    margin: 40px auto;
+    margin: 110px auto;
   }
 }
 .Home__title {
-  font-size: 42px;
+  font-size: 36px;
   padding: 32px 0;
   margin-top: 0;
   width: 100%;
   position: relative;
+  text-align: center;
   color: #0e423d;
 }
 @media screen and (min-width: 1024px) {
   .Home__title {
-    text-align: center;
     padding: 40px 0;
+    font-size: 42px;
   }
 }
 .Home__text {
@@ -135,18 +141,18 @@
 }
 
 .Projects {
-  margin: 20px;
+  margin: 100px 20px 20px;
   display: flex;
   flex-wrap: wrap;
 }
 @media screen and (min-width: 1024px) {
   .Projects {
     max-width: 1240px;
-    margin: 40px auto;
+    margin: 110px auto;
   }
 }
 .Projects__title {
-  font-size: 42px;
+  font-size: 36px;
   padding: 32px 0;
   margin-top: 0;
   width: 100%;
@@ -157,6 +163,7 @@
 @media screen and (min-width: 1024px) {
   .Projects__title {
     padding: 40px 0;
+    font-size: 42px;
   }
 }
 .Projects__gallery {

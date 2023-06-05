@@ -1,21 +1,22 @@
 .Home {
-  margin: 20px;
+  margin: 100px 20px 20px;
   display: flex;
   flex-wrap: wrap;
   @include media-min($media-desktop) {
     max-width: 1240px;
-    margin: 40px auto;
+    margin: 110px auto;
   }
   &__title {
-    font-size: 42px;
+    font-size: 36px;
     padding: 32px 0;
     margin-top: 0;
     width: 100%;
     position: relative;
+    text-align: center;
     color: $primary-color;
     @include media-min($media-desktop) {
-      text-align: center;
       padding: 40px 0;
+      font-size: 42px;
     }
   }
   &__text {

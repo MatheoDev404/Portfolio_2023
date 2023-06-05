@@ -1,4 +1,9 @@
 .Header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  left: 0;
   background-color: $primary-color;
   display: flex;
   justify-content: space-between;
