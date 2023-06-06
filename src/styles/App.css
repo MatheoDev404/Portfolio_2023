@@ -69,25 +69,30 @@
   top: 0;
   left: 0;
   background-color: #0e423d;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.Header__container {
+  width: 100%;
+  max-width: 1240px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin: 0 auto;
 }
-.Header__logo {
+.Header__container__logo {
   color: #ffffff;
   font-size: 20px;
   margin-left: 25px;
 }
 @media screen and (min-width: 1024px) {
-  .Header__logo {
+  .Header__container__logo {
     font-size: 28px;
   }
 }
-.Header__nav {
+.Header__container__nav {
   display: flex;
 }
-.Header__nav__link {
+.Header__container__nav__link {
   margin: 10px;
   color: #ffffff;
   text-decoration: none;
@@ -95,25 +100,28 @@
   font-size: 14px;
 }
 @media screen and (min-width: 1024px) {
-  .Header__nav__link {
+  .Header__container__nav__link {
     text-transform: initial;
     font-size: 24px;
     margin: 25px;
   }
 }
-.Header__nav__link:hover {
+.Header__container__nav__link:hover {
   text-decoration: underline;
 }
 
 .Home {
-  margin: 100px 20px 20px;
+  max-width: 1240px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
+  margin: 100px 20px;
+  padding: 20px;
 }
 @media screen and (min-width: 1024px) {
   .Home {
-    max-width: 1240px;
-    margin: 110px auto;
+    margin: 110px 20px;
   }
 }
 .Home__title {
@@ -121,7 +129,6 @@
   padding: 32px 0;
   margin-top: 0;
   width: 100%;
-  position: relative;
   text-align: center;
   color: #0e423d;
 }
@@ -132,12 +139,28 @@
   }
 }
 .Home__text {
+  margin: 0 auto;
   font-size: 18px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 .Home__text__paragraph {
   margin-bottom: 15px;
+}
+.Home__downloadButton {
+  align-self: center;
+  color: white;
+  background-color: #0e423d;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 10px 30px;
+}
+.Home__downloadButton:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .Projects {
@@ -174,6 +197,18 @@
 @media screen and (min-width: 1024px) {
   .Projects__gallery {
     padding: 25px;
+  }
+}
+
+.Project {
+  margin: 100px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 1024px) {
+  .Project {
+    max-width: 1240px;
+    margin: 110px auto;
   }
 }
 
@@ -225,4 +260,6 @@
 body {
   font-family: "Montserrat", cursive;
   margin: 0px;
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=App.css.map */

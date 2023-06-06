@@ -15,4 +15,6 @@
 body {
   @include font-family-montserrat;
   margin: 0px;
+  display: flex;
+  justify-content: space-around;
 }

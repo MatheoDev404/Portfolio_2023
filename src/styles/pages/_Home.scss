@@ -1,17 +1,19 @@
 .Home {
-  margin: 100px 20px 20px;
+  max-width: 1240px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
+  margin: 100px 20px;
+  padding: 20px;
   @include media-min($media-desktop) {
-    max-width: 1240px;
-    margin: 110px auto;
+    margin: 110px 20px;
   }
   &__title {
     font-size: 36px;
     padding: 32px 0;
     margin-top: 0;
     width: 100%;
-    position: relative;
     text-align: center;
     color: $primary-color;
     @include media-min($media-desktop) {
@@ -20,11 +22,28 @@
     }
   }
   &__text {
+    margin: 0 auto;
     font-size: 18px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     &__paragraph {
       margin-bottom: 15px;
+    }
+  }
+  &__downloadButton {
+    align-self: center;
+    color: white;
+    background-color: $primary-color;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 10px 30px;
+    &:hover {
+      cursor: pointer;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
   }
 }

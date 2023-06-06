@@ -1,1 +1,9 @@
-
+.Project {
+  margin: 100px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  @include media-min($media-desktop) {
+    max-width: 1240px;
+    margin: 110px auto;
+  }
+}
