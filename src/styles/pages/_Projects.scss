@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   @include media-min($media-desktop) {
+    max-width: 1420px;
     margin: 110px auto;
   }
   &__title {

@@ -62,11 +62,16 @@ function Project() {
               <p className="Project__content__rightSection__description">
                 {project.description}
               </p>
+              <ul className="Project__content__rightSection__objectifList">
+                {project.objectifs.map((index) => {
+                  return <li key={index}> {index}</li>
+                })}
+              </ul>
               <a
                 href={project.github}
                 className="Project__content__rightSection__github"
               >
-                lien du repository github
+                Repertoire Github
               </a>
             </section>
           </section>

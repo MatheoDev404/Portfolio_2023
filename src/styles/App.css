@@ -170,6 +170,7 @@
 }
 @media screen and (min-width: 1024px) {
   .Projects {
+    max-width: 1420px;
     margin: 110px auto;
   }
 }
@@ -228,20 +229,57 @@
 .Project__content {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
   margin: 50px;
 }
+@media screen and (min-width: 1024px) {
+  .Project__content {
+    flex-direction: row;
+  }
+}
 .Project__content__leftSection {
+  display: flex;
   flex-direction: column;
-  margin-right: 20px;
+}
+@media screen and (min-width: 1024px) {
+  .Project__content__leftSection {
+    margin-right: 50px;
+  }
 }
 .Project__content__leftSection__cover {
-  width: 450px;
+  align-self: center;
+  width: 250px;
   margin-bottom: 40px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (min-width: 1024px) {
+  .Project__content__leftSection__cover {
+    width: 450px;
+  }
 }
 .Project__content__leftSection__tagContainer {
   color: #0e423d;
 }
+.Project__content__rightSection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.Project__content__rightSection__github {
+  text-decoration: none;
+  color: white;
+  background-color: #0e423d;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin: 15px auto;
+  padding: 10px 20px;
+}
+.Project__content__rightSection__github:hover {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
 .Error {
   margin: 20px;
   display: flex;

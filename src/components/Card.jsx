@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Tag from '../components/Tag'
 
-function Card({ id, picture, title, tags, description }) {
+function Card({ id, picture, title, tags, description, objectifs }) {
   return (
     <Link to={{ pathname: `/projet/${id}` }} className="Card">
       <img className="Card__img" src={picture} alt="aperçu du site" />
