@@ -1,49 +1,83 @@
 [
   {
-    "id": "c67ab8a7",
+    "id": "1",
+    "title": "Booki",
+    "cover": "/assets/images/projet-booki-image-1.webp",
+    "description": "Intégration de l'interface du site pour l'agence \"Booki\" à partir de la maquette fournie",
+    "objectifs":[
+      "Implémenter une interface responsive",
+      "Intégrer du contenu conformément à une maquette"
+    ],
+    "tags": ["HTML/CSS"],
+    "github": "https://github.com/MatheoDev404/Booki"
+  },
+  {
+    "id": "2",
+    "title": "Ohmyfood",
+    "cover": "/assets/images/projet-ohmyfood-image-1.webp",
+    "description": "Intégration d'une premiere version du site  de commande de repas en ligne \"Ohmyfood\"",
+    "objectifs":[
+      "Mettre en œuvre des effets CSS graphiques avancés",
+      "Mettre en place une structure de navigation pour un site web",
+      "Assurer la cohérence graphique d'un site web",
+      "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement",
+      "Mettre en place son environnement Front-End"
+    ],
+    "tags": ["HTML/CSS", "Sass"],
+    "github": "https://github.com/MatheoDev404/Ohmyfood"
+  },
+  {
+    "id": "3",
+    "title": "La Panthere",
+    "cover": "/assets/images/projet-la-panthere-image-1.webp",
+    "description": "Optimisation d'un site web \"La Panthere\" existant à l'aide de nos connaissance et des outils adaptés",
+    "objectifs":[
+      "Réaliser une recherche des bonnes pratiques en développement web",
+      "Écrire un code HTML et CSS maintenable",
+      "Optimiser la taille et la vitesse d’un site web",
+      "Assurer l'accessibilité d'un site web",
+      "Optimiser le référencement d'un site web"
+    ],
+    "tags": ["HTML/CSS"],
+    "github": "https://github.com/MatheoDev404/La-Panthere"
+  },
+  {
+    "id": "4",
+    "title": "Kanap",
+    "cover": "/assets/images/projet-kanap-image-1.webp",
+    "description": "Création du front-end pour un site de vente de canapés, \"Kanap\"",
+    "objectifs":[
+      "Créer un plan de test pour une application",
+      "Valider des données issues de sources externes",
+      "Interagir avec un web service avec JavaScript",
+      "Gérer des événements JavaScript"
+    ],
+    "tags": ["HTML/CSS", "JS"],
+    "github": "https://github.com/MatheoDev404/Kanap"
+  },
+  {
+    "id": "5",
+    "title": "Piiquante",
+    "cover": "/assets/images/projet-piiquante-image-1.webp",
+    "description": "Développement d'une API pour une application d'avis gastronomiques \"Piiquante\"",
+    "objectifs":[
+      "Mettre en œuvre des opérations CRUD de manière sécurisée",
+      "Implémenter un modèle logique de données conformément à la réglementation",
+      "Stocker des données de manière sécurisée"
+    ],
+    "tags": ["JS", "Node.js"],
+    "github": "https://github.com/MatheoDev404/Piiquante"
+  },
+  {
+    "id": "6",
     "title": "Kasa",
     "cover": "/assets/images/projet-kasa-image-1.webp",
-    "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"],
-    "github": "https://github.com/MatheoDev404/kasa"
-  },
-  {
-    "id": "c67ab8a8",
-    "title": "fdepe",
-    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla elit sed massa ultricies feugiat. Duis sed enim elit. Maecenas nec ex at mi molestie rhoncus ut eget velit. Pellentesque condimentum placerat vehicula. Donec fringilla faucibus blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce metus sapien, cursus eget odio vel, sagittis feugiat nibh. Vestibulum mi massa, tempus in lacinia scelerisque, auctor non ex. Proin venenatis libero eget risus malesuada auctor. Phasellus vitae mi magna. Etiam vehicula volutpat augue ac sagittis. Pellentesque nec cursus mi. Vestibulum gravida laoreet ante, suscipit aliquam ligula volutpat in. Nullam rutrum, lacus sit amet scelerisque aliquam, odio ipsum vulputate sapien, ut rhoncus arcu turpis nec ligula. Nulla facilisi. Sed nec cursus justo.Suspendisse sit amet fermentum diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sodales est mattis sapien laoreet scelerisque. Sed ultrices vulputate lacus, vitae aliquet sapien malesuada quis. Ut felis dui, malesuada ut maximus sit amet, vulputate eget ipsum. Nam malesuada interdum odio, quis venenatis diam pharetra cursus. In vulputate, odio nec vulputate vestibulum, felis elit varius ligula, in fermentum augue lacus egestas velit.Nam velit mi, blandit non metus ac, sodales mollis turpis. Aliquam placerat pulvinar nunc eu fringilla. Maecenas sit amet urna ac lectus tincidunt iaculis. Quisque et eros at dolor egestas interdum. Ut blandit eget nibh ut congue. Proin ultricies ex ligula, interdum euismod metus tempus sagittis. Vestibulum mattis ornare ullamcorper. Suspendisse bibendum gravida felis ut tempor. ",
-    "tags": ["React", "HTML/CSS", "Sass"],
-    "github": "https://github.com/MatheoDev404/kasa"
-  },
-  {
-    "id": "c67ab875",
-    "title": "Kasa",
-    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-    "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"],
-    "github": "https://github.com/MatheoDev404/kasa"
-  },
-  {
-    "id": "c67758a7",
-    "title": "Kasa",
-    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-    "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"],
-    "github": "https://github.com/MatheoDev404/kasa"
-  },
-  {
-    "id": "c67a27a7",
-    "title": "Kasa",
-    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-    "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"],
-    "github": "https://github.com/MatheoDev404/kasa"
-  },
-  {
-    "id": "c612b8a7",
-    "title": "Kasa",
-    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-    "description": "Site vitrine pour une agence de location immobilière, première version.",
+    "description": "Développement de la partie front-end du site \"Kasa\" avec React.js et CRA",
+    "objectifs":[
+      "Configurer la navigation entre les pages de l'application avec React Router",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React",
+      "Initialiser une application avec Create React App"
+    ],
     "tags": ["React", "HTML/CSS", "Sass"],
     "github": "https://github.com/MatheoDev404/kasa"
   }
