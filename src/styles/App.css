@@ -36,7 +36,7 @@
   flex-direction: column;
   margin: 10px;
 }
-.Card__content__tags {
+.Card__content__tagContainer {
   color: #0e423d;
   padding: 0;
 }
@@ -170,7 +170,6 @@
 }
 @media screen and (min-width: 1024px) {
   .Projects {
-    max-width: 1240px;
     margin: 110px auto;
   }
 }
@@ -191,8 +190,8 @@
 }
 .Projects__gallery {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 @media screen and (min-width: 1024px) {
   .Projects__gallery {
@@ -204,14 +203,45 @@
   margin: 100px 20px 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 @media screen and (min-width: 1024px) {
   .Project {
-    max-width: 1240px;
     margin: 110px auto;
   }
 }
-
+.Project__title {
+  font-size: 36px;
+  padding: 32px 0;
+  margin-top: 0;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: #0e423d;
+}
+@media screen and (min-width: 1024px) {
+  .Project__title {
+    padding: 40px 0;
+    font-size: 42px;
+  }
+}
+.Project__content {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+.Project__content__leftSection {
+  flex-direction: column;
+  margin-right: 20px;
+}
+.Project__content__leftSection__cover {
+  width: 450px;
+  margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Project__content__leftSection__tagContainer {
+  color: #0e423d;
+}
 .Error {
   margin: 20px;
   display: flex;

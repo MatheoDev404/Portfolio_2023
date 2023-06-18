@@ -32,7 +32,7 @@ function Projects() {
             key={project.id}
             id={project.id}
             title={project.title}
-            picture={project.cover}
+            picture={process.env.PUBLIC_URL + project.cover}
             tags={project.tags}
             description={project.description}
           />

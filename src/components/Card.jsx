@@ -9,7 +9,7 @@ function Card({ id, picture, title, tags, description }) {
       <img className="Card__img" src={picture} alt="aperçu du site" />
       <div className="Card__content">
         <span className="Card__content__title">{title}</span>
-        <ul className="Card__content__tags">
+        <ul className="Card__content__tagContainer">
           {tags.map((tag, index) => (
             <Tag key={index} tagName={tag} />
           ))}
@@ -25,6 +25,7 @@ Card.propTypes = {
   picture: PropTypes.string.isRequired,
   tags: PropTypes.array.isRequired,
   description: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
 }
 
 Card.defaultProps = {
@@ -32,6 +33,7 @@ Card.defaultProps = {
   picture: '',
   tags: [],
   description: '',
+  color: '',
 }
 
 export default Card

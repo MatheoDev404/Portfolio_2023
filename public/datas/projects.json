@@ -2,43 +2,49 @@
   {
     "id": "c67ab8a7",
     "title": "Kasa",
-    "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+    "cover": "/assets/images/projet-kasa-image-1.webp",
     "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"]
+    "tags": ["React", "HTML/CSS", "Sass"],
+    "github": "https://github.com/MatheoDev404/kasa"
   },
   {
     "id": "c67ab8a8",
     "title": "fdepe",
     "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-    "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"]
+    "description": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla elit sed massa ultricies feugiat. Duis sed enim elit. Maecenas nec ex at mi molestie rhoncus ut eget velit. Pellentesque condimentum placerat vehicula. Donec fringilla faucibus blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce metus sapien, cursus eget odio vel, sagittis feugiat nibh. Vestibulum mi massa, tempus in lacinia scelerisque, auctor non ex. Proin venenatis libero eget risus malesuada auctor. Phasellus vitae mi magna. Etiam vehicula volutpat augue ac sagittis. Pellentesque nec cursus mi. Vestibulum gravida laoreet ante, suscipit aliquam ligula volutpat in. Nullam rutrum, lacus sit amet scelerisque aliquam, odio ipsum vulputate sapien, ut rhoncus arcu turpis nec ligula. Nulla facilisi. Sed nec cursus justo.Suspendisse sit amet fermentum diam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sodales est mattis sapien laoreet scelerisque. Sed ultrices vulputate lacus, vitae aliquet sapien malesuada quis. Ut felis dui, malesuada ut maximus sit amet, vulputate eget ipsum. Nam malesuada interdum odio, quis venenatis diam pharetra cursus. In vulputate, odio nec vulputate vestibulum, felis elit varius ligula, in fermentum augue lacus egestas velit.Nam velit mi, blandit non metus ac, sodales mollis turpis. Aliquam placerat pulvinar nunc eu fringilla. Maecenas sit amet urna ac lectus tincidunt iaculis. Quisque et eros at dolor egestas interdum. Ut blandit eget nibh ut congue. Proin ultricies ex ligula, interdum euismod metus tempus sagittis. Vestibulum mattis ornare ullamcorper. Suspendisse bibendum gravida felis ut tempor. ",
+    "tags": ["React", "HTML/CSS", "Sass"],
+    "github": "https://github.com/MatheoDev404/kasa"
   },
   {
     "id": "c67ab875",
     "title": "Kasa",
     "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
     "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"]
+    "tags": ["React", "HTML/CSS", "Sass"],
+    "github": "https://github.com/MatheoDev404/kasa"
   },
   {
     "id": "c67758a7",
     "title": "Kasa",
     "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
     "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"]
+    "tags": ["React", "HTML/CSS", "Sass"],
+    "github": "https://github.com/MatheoDev404/kasa"
   },
   {
     "id": "c67a27a7",
     "title": "Kasa",
     "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
     "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"]
+    "tags": ["React", "HTML/CSS", "Sass"],
+    "github": "https://github.com/MatheoDev404/kasa"
   },
   {
     "id": "c612b8a7",
     "title": "Kasa",
     "cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
     "description": "Site vitrine pour une agence de location immobilière, première version.",
-    "tags": ["React", "HTML/CSS", "Sass"]
+    "tags": ["React", "HTML/CSS", "Sass"],
+    "github": "https://github.com/MatheoDev404/kasa"
   }
 ]

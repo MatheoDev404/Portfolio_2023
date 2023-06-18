@@ -2,8 +2,40 @@
   margin: 100px 20px 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   @include media-min($media-desktop) {
-    max-width: 1240px;
     margin: 110px auto;
+  }
+  &__title {
+    font-size: 36px;
+    padding: 32px 0;
+    margin-top: 0;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: $primary-color;
+    @include media-min($media-desktop) {
+      padding: 40px 0;
+      font-size: 42px;
+    }
+  }
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    &__leftSection {
+      flex-direction: column;
+      margin-right: 20px;
+      &__cover {
+        width: 450px;
+        margin-bottom: 40px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+      &__tagContainer {
+        color: $primary-color;
+      }
+    }
+  }
+  &__rightSection {
   }
 }

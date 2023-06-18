@@ -44,14 +44,32 @@ function Project() {
     <>
       {project != null ? (
         <div className="Project">
-          <div className="Project">
-            <h1 className="Project__title">{project.title}</h1>
-            <div className="Project__tagContainer">
-              {project.tags.map((tag, index) => (
-                <Tag key={index} tagName={tag} />
-              ))}
-            </div>
-          </div>
+          <h1 className="Project__title">{project.title}</h1>
+          <section className="Project__content">
+            <section className="Project__content__leftSection">
+              <img
+                className="Project__content__leftSection__cover"
+                src={process.env.PUBLIC_URL + project.cover}
+                alt="aperçu du projet"
+              />
+              <div className="Project__content__leftSection__tagContainer">
+                {project.tags.map((tag, index) => (
+                  <Tag key={index} tagName={tag} />
+                ))}
+              </div>
+            </section>
+            <section className="Project__content__rightSection">
+              <p className="Project__content__rightSection__description">
+                {project.description}
+              </p>
+              <a
+                href={project.github}
+                className="Project__content__rightSection__github"
+              >
+                lien du repository github
+              </a>
+            </section>
+          </section>
         </div>
       ) : (
         <></>

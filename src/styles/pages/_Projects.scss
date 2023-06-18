@@ -3,7 +3,6 @@
   display: flex;
   flex-wrap: wrap;
   @include media-min($media-desktop) {
-    max-width: 1240px;
     margin: 110px auto;
   }
   &__title {
@@ -21,8 +20,8 @@
   }
   &__gallery {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    flex-wrap: wrap;
     @include media-min($media-desktop) {
       padding: 25px;
     }
